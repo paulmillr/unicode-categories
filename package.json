@@ -1,0 +1,17 @@
+{
+  "author": "Paul Miller <paulmillr@me.com> (http://paulmillr.com/)",
+  "name": "unicode-categories",
+  "description": "ECMAscript unicode categories",
+  "version": "0.5.0",
+  "homepage": "https://github.com/paulmillr/unicode-categories",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulmillr/unicode-categories.git"
+  },
+  "main": "unicode-categories",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

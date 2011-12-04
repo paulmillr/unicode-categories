@@ -1,6 +1,5 @@
 # Unicode categories
-A list of unicode categories.
-It could be used implement ECMAscript lexer etc.
+Unicode categories regExps.
 
 ## Installation
 
@@ -12,8 +11,10 @@ npm install unicode-categories
 
 ```javascript
 var unicode = require('unicode-categories');
-// Tests if text is a valid ECMAscript 5 upper case letter.
-var isValidUpperCase = unicode.upperCaseLetter.test
+// Tests if text is a valid unicode upper case letter.
+var isValidUpperCase = unicode.Lu.test;
+// Tests if text is a valid ecmascript identifier.
+var isValidIdentifier = unicode.ECMA.identifier.test;
 ```
 
 ## Documentation
@@ -21,16 +22,25 @@ Library contains several unicode category regexps. Here's list of them:
 
 (short name, long name: description)
 
-- `Lu`, `upperCaseLetter`: upper case letter.
-- `Ll`, `lowerCaseLetter`: lower case letter.
-- `Lt`, `titleCaseLetter`: title case letter.
-- `Lm`, `modifierLetter`: modifier letter.
-- `Lo`, `otherLetter`: other letter.
-- `Mn`, `nonSpacingMark`: non-spacing mark.
-- `Mc`, `spaceMark`: space mark.
-- `Nl`, `numberLetter`: number letter.
-- `Nd`, `digit`: decimal (e.g. 0-9 etc).
-- `Pc`, `punctuationConnector`: punctuation connector.
+- `Lu`: upper case letter.
+- `Ll`: lower case letter.
+- `Lt`: title case letter.
+- `Lm`: modifier letter.
+- `Lo`: other letter.
+- `Mn`: non-spacing mark.
+- `Mc`: space mark.
+- `Nl`: number letter.
+- `Nd`: decimal (e.g. 0-9 etc).
+- `Pc`: punctuation connector.
+
+Also, unicode-categories gives you a list of ECMAscript idenfitiers:
+
+- `ECMA.start` - letter, that identifier starts with. Contains letters from
+categories (Lu, Ll, Lt, Lm, Lo, Nl). Also it can be `$` and `_`.
+- `ECMA.part` - all `ECMA.start` letters plus letters from categories Mn, Mc, Nd, Pc.
+- `ECMA.idenfitier` - combination of previous two regexps.
+
+For details, see [ECMAscript spec](http://es5.github.com/#x7.6).
 
 ## License
 (The MIT License)

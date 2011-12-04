@@ -20,13 +20,13 @@ Library contains several unicode category regexps. Here's list of them:
 
 (short name, long name: description)
 
-- `Lu, `upperCaseLetter`: upper case letter.
-- `Ll, `lowerCaseLetter`: lower case letter.
-- `Lt, `titleCaseLetter`: title case letter.
-- `Lm, `modifierLetter`: modifier letter.
-- `Lo, `otherLetter`: other letter.
-- `Mn, `nonSpacingMark`: non-spacing mark.
-- `Mc, `spaceMark`: space mark.
+- `Lu`, `upperCaseLetter`: upper case letter.
+- `Ll`, `lowerCaseLetter`: lower case letter.
+- `Lt`, `titleCaseLetter`: title case letter.
+- `Lm`, `modifierLetter`: modifier letter.
+- `Lo`, `otherLetter`: other letter.
+- `Mn`, `nonSpacingMark`: non-spacing mark.
+- `Mc`, `spaceMark`: space mark.
 - `Nl`, `number`: number.
 - `Nd`, `decimal`: decimal.
 - `Pc, `punctuationConnector`: punctuation connector.

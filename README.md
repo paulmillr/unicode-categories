@@ -4,7 +4,9 @@ It could be used implement ECMAscript lexer etc.
 
 ## Installation
 
-`npm install unicode-categories`
+```bash
+npm install unicode-categories
+```
 
 ## Usage
 
@@ -18,17 +20,17 @@ Library contains several unicode category regexps. Here's list of them:
 
 (short name, long name: description)
 
-- Lu, upperCaseLetter: upper case letter.
-- Ll, lowerCaseLetter: lower case letter.
-- Lt, titleCaseLetter: title case letter.
-- Lm, modifierLetter: modifier letter.
-- Lo, otherLetter: other letter.
-- Mn, nonSpacingMark: non-spacing mark.
-- Mc, spaceMark: space mark.
-- Nl, number: number.
-- Nd, decimal: decimal.
-- Pc, punctuationConnector: punctuation connector.
-- letter: combines (upperCaseLetter, lowerCaseLetter, titleCaseLetter,
+- `Lu, `upperCaseLetter`: upper case letter.
+- `Ll, `lowerCaseLetter`: lower case letter.
+- `Lt, `titleCaseLetter`: title case letter.
+- `Lm, `modifierLetter`: modifier letter.
+- `Lo, `otherLetter`: other letter.
+- `Mn, `nonSpacingMark`: non-spacing mark.
+- `Mc, `spaceMark`: space mark.
+- `Nl`, `number`: number.
+- `Nd`, `decimal`: decimal.
+- `Pc, `punctuationConnector`: punctuation connector.
+- `letter`: combines (upperCaseLetter, lowerCaseLetter, titleCaseLetter,
 modifierLetter, otherLetter and number). `letter` is a valid js identifier.
 
 ## License

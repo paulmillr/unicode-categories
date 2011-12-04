@@ -28,8 +28,8 @@ Library contains several unicode category regexps. Here's list of them:
 - `Lo`, `otherLetter`: other letter.
 - `Mn`, `nonSpacingMark`: non-spacing mark.
 - `Mc`, `spaceMark`: space mark.
-- `Nl`, `number`: number.
-- `Nd`, `decimal`: decimal.
+- `Nl`, `numberLetter`: number letter.
+- `Nd`, `decimalNumber`: decimal (e.g. 0-9 etc).
 - `Pc`, `punctuationConnector`: punctuation connector.
 
 ## License

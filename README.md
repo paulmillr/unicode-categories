@@ -12,10 +12,8 @@ npm install unicode-categories
 
 ```javascript
 var unicode = require('unicode-categories');
-// Tests if text is a valid ECMAscript identifier.
-var isValidIdentifier = function(text) {
-  return unicode.letter.test(text);
-};
+// Tests if text is a valid ECMAscript 5 upper case letter.
+var isValidUpperCase = unicode.upperCaseLetter.test
 ```
 
 ## Documentation
@@ -33,8 +31,6 @@ Library contains several unicode category regexps. Here's list of them:
 - `Nl`, `number`: number.
 - `Nd`, `decimal`: decimal.
 - `Pc`, `punctuationConnector`: punctuation connector.
-- `letter`: combines `upperCaseLetter`, `lowerCaseLetter`, `titleCaseLetter`,
-`modifierLetter`, `otherLetter` and `number`. `letter` is a valid js identifier.
 
 ## License
 (The MIT License)

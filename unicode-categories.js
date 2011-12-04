@@ -29,15 +29,3 @@ exports.Nd = exports.decimal = /\u0030|\u0031|\u0032|\u0033|\u0034|\u0035|\u0036
 
 // Connector punctuation.
 exports.Pc = exports.punctuationConnector = /\u005F|\u203F|\u2040|\u2054|\uFE33|\uFE34|\uFE4D|\uFE4E|\uFE4F|\uFF3F/;
-
-// Unicode letter.
-// Any character in the Unicode categories “Uppercase letter (Lu)”,
-// “Lowercase letter (Ll)”, “Titlecase letter (Lt)”, “Modifier letter (Lm)”,
-// “Other letter (Lo)”, or “Letter number (Nl)”.
-exports.letter = new RegExp([
-    exports.upperCaseLetter, exports.lowerCaseLetter, exports.titleCaseLetter,
-    exports.modifierLetter, exports.otherLetter, exports.number
-  ].reduce(function(accumulator, value) {
-  return accumulator + value.source;
-}));
-

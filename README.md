@@ -32,7 +32,7 @@ Library contains several unicode category regexps. Here's list of them:
 - `Mc`, `spaceMark`: space mark.
 - `Nl`, `number`: number.
 - `Nd`, `decimal`: decimal.
-- `Pc, `punctuationConnector`: punctuation connector.
+- `Pc`, `punctuationConnector`: punctuation connector.
 - `letter`: combines (upperCaseLetter, lowerCaseLetter, titleCaseLetter,
 modifierLetter, otherLetter and number). `letter` is a valid js identifier.
 

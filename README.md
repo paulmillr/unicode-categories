@@ -33,8 +33,8 @@ Library contains several unicode category regexps. Here's list of them:
 - `Nl`, `number`: number.
 - `Nd`, `decimal`: decimal.
 - `Pc`, `punctuationConnector`: punctuation connector.
-- `letter`: combines (upperCaseLetter, lowerCaseLetter, titleCaseLetter,
-modifierLetter, otherLetter and number). `letter` is a valid js identifier.
+- `letter`: combines `upperCaseLetter`, `lowerCaseLetter`, `titleCaseLetter`,
+`modifierLetter`, `otherLetter` and `number`. `letter` is a valid js identifier.
 
 ## License
 (The MIT License)

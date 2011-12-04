@@ -12,7 +12,10 @@ npm install unicode-categories
 
 ```javascript
 var unicode = require('unicode-categories');
-var IDENTIFIER = unicode.letter;  // Valid JS identifier.
+// Tests if text is a valid ECMAscript identifier.
+var isValidIdentifier = function(text) {
+  return unicode.letter.test(text);
+};
 ```
 
 ## Documentation

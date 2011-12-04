@@ -29,7 +29,7 @@ Library contains several unicode category regexps. Here's list of them:
 - `Mn`, `nonSpacingMark`: non-spacing mark.
 - `Mc`, `spaceMark`: space mark.
 - `Nl`, `numberLetter`: number letter.
-- `Nd`, `decimalNumber`: decimal (e.g. 0-9 etc).
+- `Nd`, `digit`: decimal (e.g. 0-9 etc).
 - `Pc`, `punctuationConnector`: punctuation connector.
 
 ## License

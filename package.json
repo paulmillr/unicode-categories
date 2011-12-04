@@ -2,7 +2,7 @@
   "author": "Paul Miller <paulmillr@me.com> (http://paulmillr.com/)",
   "name": "unicode-categories",
   "description": "ECMAscript unicode categories",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/paulmillr/unicode-categories",
   "repository": {
     "type": "git",

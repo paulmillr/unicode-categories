@@ -1,5 +1,5 @@
 {
-  "author": "Paul Miller <paulmillr@me.com> (http://paulmillr.com/)",
+  "author": "Paul Miller (http://paulmillr.com/)",
   "name": "unicode-categories",
   "description": "Unicode categories regExps",
   "version": "0.9.0",
@@ -8,7 +8,6 @@
     "type": "git",
     "url": "git://github.com/paulmillr/unicode-categories.git"
   },
-  "main": "unicode-categories",
   "engines": {
     "node": ">=0.4.0"
   },
